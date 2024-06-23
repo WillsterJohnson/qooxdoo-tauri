@@ -8,8 +8,8 @@
     "build": "qx compile --target build"
   },
   "keywords": [],
-  "author": "",
-  "license": "GPL-3.0",
+  "author": "Will 'WillsterJohnson' Johnson",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "signal-polyfill": "^0.1.1"
   },
