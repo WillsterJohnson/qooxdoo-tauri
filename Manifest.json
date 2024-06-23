@@ -1,0 +1,25 @@
+{
+  "$schema": "https://qooxdoo.org/schema/Manifest-2-0-0.json",
+  "info": {
+    "name": "ter.wills",
+    "summary": "A demo application using Tauri for cross-platform native app deployment",
+    "description": "",
+    "homepage": "",
+    "license": "GPL-3.0",
+    "authors": [
+      {
+        "name": "Willster Johnson",
+        "email": "(willsterjohnson)"
+      }
+    ],
+    "version": "1.0.0"
+  },
+  "provides": {
+    "namespace": "ter.wills",
+    "encoding": "utf-8",
+    "class": "source"
+  },
+  "requires": {
+    "@qooxdoo/framework": "^7.7.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext"
+  },
+  "include": ["source/**/*", "global.d.ts"]
+}

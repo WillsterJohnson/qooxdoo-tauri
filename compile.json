@@ -1,0 +1,45 @@
+{
+  "$schema": "https://qooxdoo.org/schema/compile-1-0-0.json",
+  "ignores": [
+    "$create",
+    "$derive",
+    "$effect",
+    "$ignore",
+    "$debug"
+  ],
+  "targets": [
+    {
+      "type": "source",
+      "outputPath": "compiled/source",
+      "minify": "off",
+      "addCreatedAt": true,
+      "verboseCreatedAt": true,
+      "typescript": true,
+      "mangle-privates": true,
+      "bundle": {
+        "include": "qx.*"
+      }
+    },
+    {
+      "type": "build",
+      "outputPath": "compiled/build",
+      "minify": "mangle",
+      "mangle-privates": true
+    }
+  ],
+  "defaultTarget": "source",
+  "locales": [
+    "en"
+  ],
+  "environment": {
+    "qx.icontheme": "Tango"
+  },
+  "applications": [
+    {
+      "class": "ter.wills.Application",
+      "theme": "ter.wills.theme.Theme",
+      "name": "ter.wills",
+      "bootPath": "boot"
+    }
+  ]
+}

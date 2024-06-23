@@ -1,0 +1,19 @@
+{
+  "name": "ter.wills",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "qx serve -p 5173 --target source",
+    "build": "qx compile --target build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "signal-polyfill": "^0.1.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": ">=2.0.0-beta.0"
+  }
+}
