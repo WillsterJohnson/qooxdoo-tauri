@@ -115,8 +115,8 @@ qx.Class.define("jsx.Component", {
       }
       // if no children, compare the attributes
       if (oldChildren.length === 0) {
-        let oldAttributes = oldRoot.getAttributes()
-        let newAttributes = newRoot.getAttributes()
+        let oldAttributes = oldRoot.getAllAttributes()
+        let newAttributes = newRoot.getAllAttributes()
         for (let key in newAttributes) {
           if (oldAttributes[key] !== newAttributes[key]) {
             oldRoot.setAttribute(key, newAttributes[key])
